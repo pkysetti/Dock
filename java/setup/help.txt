@@ -1,0 +1,31 @@
+#download jdk-8u191-windows-x64.exe to setup folder 
+#download jre-8u191-windows-x64.exe to setup folder 
+#extract tomcat
+
+## List Docker CLI commands
+docker
+docker container --help
+
+## Display Docker version and info
+docker --version
+docker version
+docker info
+
+## Execute Docker image
+docker run hello-world
+
+## List Docker images
+docker image ls
+
+## List Docker containers (running, all, all in quiet mode)
+docker container ls
+docker container ls --all
+docker container ls -aq
+
+
+
+docker run -it -p 80:8080 tomcat2 powershell
+
+Get-Service tomcat9
+
+http://tech.energyhelpline.com/setting-up-rabbitmq-in-a-docker-windows-container/
